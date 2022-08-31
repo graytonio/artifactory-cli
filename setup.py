@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup (
     name = "jfrog",
@@ -6,7 +6,7 @@ setup (
     author = "Grayton Ward",
     author_email= "graytonio.ward@gmail.com",
     version = "0.0.1",
-    packages = ['jfrog', 'artifactory', 'auth'],
+    packages = find_packages(),
     entry_points = {
         'console_scripts': [
             'jf = jfrog.cli:entry_point'
