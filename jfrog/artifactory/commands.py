@@ -3,7 +3,7 @@ from jfrog.api import api_delete_request, api_get_request, api_post_request, api
 
 from tabulate import tabulate
 
-@click.group()
+@click.group(help="Artifactory API")
 def arti():
     pass
 

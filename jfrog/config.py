@@ -1,6 +1,5 @@
 import configparser
 from pathlib import Path
-from re import S
 
 _config_file = Path.joinpath(Path.home(), ".jfcfg")
 _config = configparser.ConfigParser()
