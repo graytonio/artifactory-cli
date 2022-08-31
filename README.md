@@ -2,6 +2,20 @@
 
 A CLI for interacting with JFrog APIs
 
+## Installation
+
+The CLI can be installed from the repository by cloning and then running
+
+```bash
+./install.sh
+```
+
+The CLI can also be installed from the JFrog Repository if you have access to it using
+
+```bash
+pip3 install jfrog
+```
+
 ## CLI Structure
 
 The cli is broken up into individual modules for each sub command this allows easy expansion in the future to extend to other apis in the future. Common functions like interacting with the config file or making HTTP requests are stored in the top level module for use in all submodules.
