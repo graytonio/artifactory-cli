@@ -3,7 +3,7 @@ import click
 from jfrog.api import api_get_request
 
 
-@click.group()
+@click.group(help="Commands Relating to Storage Configuration")
 def storage():
     pass
 
